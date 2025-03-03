@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  font-size: large;
+  font-weight: 600;
+}
+
+body {
+  background-color: #2f2f2f;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 5px;
+}
+
+input,
+#result,
+select,
+button {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  outline: none;
+  background-color: #00000000;
+  color: #e0e0e0;
+  border: 1px solid #00000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: large;
+  appearance: none;
+  border-color: #4f4f4f;
+}
+
+input:hover,
+input:focus,
+select:hover,
+select:focus,
+button:hover,
+button:focus {
+  background-color: #3f3f3f;
+  cursor: pointer;
+}
+option {
+  background-color: #2f2f2f;
+  cursor: pointer;
+}
+button:active {
+  background-color: #454545;
+}
