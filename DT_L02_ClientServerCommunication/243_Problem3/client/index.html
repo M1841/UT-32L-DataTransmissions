@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="../../../lib/vue/vue.min.js"></script>
+    <script src="../../../lib/socket.io-client/socket.io.min.js"></script>
+    <title>Problem 3</title>
+  </head>
+  <body>
+    <div id="app">
+      <ul>
+        <li v-for="message in messages">{{ message }}</li>
+      </ul>
+      <input v-model="message" />
+      <button v-on:click="send()">Send</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
